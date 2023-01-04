@@ -1,0 +1,29 @@
+h1{
+    background-image: url(red-flower.jpg);
+    padding-left: 20px;
+    color: aliceblue;
+}
+* {
+    box-sizing: border-box;
+  }
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-image:url( "arriere-plan-nature.jpeg");
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .resume{
+    text-align: center;
+    background-image: url(layout1.jpg);
+  }
+  footer{
+    background-color: blanchedalmond;
+  }
